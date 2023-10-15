@@ -1,0 +1,202 @@
+
+/* GENERL CLASSES TO USE */
+/* DO NOT CHANGE, CAN REFRENCE  */
+
+/* Creates Blue button with white text */
+.blue-button{
+    background-color: blue;
+    border-radius: 10%;
+    color: white;
+}
+
+.white-button{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-radius:10%;
+}
+
+.minimal-padding{
+    padding: 7%;
+}
+
+.medium-text{
+    font-size: 1.5em;
+}
+
+.large-text{
+    font-size: 2em;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.tiny-text{
+    font-size: .8em;
+}
+
+.gray-link{
+    font-weight:bolder;
+    color:rgb(99, 87, 87);
+    text-decoration: none;
+}
+
+.gray-text{
+    color:rgb(99, 87, 87);
+}
+
+.blue-circle{
+    height: .5em;
+    padding-bottom: .1em;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.super-bold-text{
+    font-weight:bolder;
+}
+
+.flex-left{
+    display: flex;
+    justify-content: left;
+}
+
+.text-gap{
+    gap:14pt;
+}
+
+.nav-bar>div>a{
+    color: black;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.sign-in-buttom{
+    margin-left: 2vw;
+    margin-right: 7vw;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5pt;
+}
+
+.button-grid-rows{
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.header-logo{
+    height: 2em;
+}
+
+.button-grid-rows{
+    justify-content: space-around;
+    margin-top: 0;
+    gap: 0px 0px;
+}
+
+.button-grid-rows>div>button>img{
+    height: 100%;
+}
+.button-grid-rows>div>button{
+    border: none;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5vh;
+}
+.button-grid-rows>div{
+    border: none;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+/* PLEASE ADD STUFF ONLY HERE */
+
+footer{
+    padding-top: 10pt;
+    background-color: blue;
+}
+
+footer>div{
+    margin-bottom: 10pt;
+}
+
+.white-text{
+    color:white;
+}
+
+.gap-30{
+    gap:30pt;
+}
+
+.green-button{
+    background-color: rgb(0, 255, 76);
+    border-radius: 10%;
+    color: white;
+}
+
+.blue-circle-button {
+    background-color: white;
+    background-image: url("connors-imgs/blue-circle.png");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+.flex-spread {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.center-row {
+    justify-content: center;
+}
+
+.credit-card {
+    margin-top: 40px;
+}
+
+.blue-background {
+    background-color: blue;
+}
+
+.flex-evenly {
+    display: flex;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex-center-column {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-self: center;
+}
+.padding-evenly {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.circle-button {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: none;
+    background-color: lightblue;
+}
+
+.space-bottom>div {
+    padding-bottom: 50px;
+}
